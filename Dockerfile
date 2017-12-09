@@ -12,4 +12,4 @@ RUN pip install --upgrade \
 #EXPOSE 6379
 
 # Set the default command
-ENTRYPOINT ["/usr/bin/bash"]
+ENTRYPOINT ["/bin/bash"]
